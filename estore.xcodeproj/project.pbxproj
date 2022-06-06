@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33A3BE2249B8F6203FBDA408 /* Pods_estore_estoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EB1E622B55009808659C4B /* Pods_estore_estoreUITests.framework */; };
 		4E353E3A284D35E900200C45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E353E39284D35E900200C45 /* AppDelegate.swift */; };
 		4E353E3C284D35E900200C45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E353E3B284D35E900200C45 /* SceneDelegate.swift */; };
 		4E353E3E284D35E900200C45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E353E3D284D35E900200C45 /* ViewController.swift */; };
@@ -17,6 +18,8 @@
 		4E353E54284D35EA00200C45 /* estoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E353E53284D35EA00200C45 /* estoreTests.swift */; };
 		4E353E5E284D35EA00200C45 /* estoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E353E5D284D35EA00200C45 /* estoreUITests.swift */; };
 		4E353E60284D35EA00200C45 /* estoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E353E5F284D35EA00200C45 /* estoreUITestsLaunchTests.swift */; };
+		CE791ED0EF1CB59738423E77 /* Pods_estoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A72C8063D39AD2626F40BD /* Pods_estoreTests.framework */; };
+		D313A4FDE1CC68271C7F885F /* Pods_estore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FE5E9C98F5B6326FD1E189 /* Pods_estore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04FE5E9C98F5B6326FD1E189 /* Pods_estore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_estore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A8469F4BD56EB59839E3FC /* Pods-estore-estoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-estore-estoreUITests.release.xcconfig"; path = "Target Support Files/Pods-estore-estoreUITests/Pods-estore-estoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4295C2FC98F2EC20A9814E93 /* Pods-estoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-estoreTests.debug.xcconfig"; path = "Target Support Files/Pods-estoreTests/Pods-estoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4E353E36284D35E900200C45 /* estore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = estore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E353E39284D35E900200C45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E353E3B284D35E900200C45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		4E353E59284D35EA00200C45 /* estoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = estoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E353E5D284D35EA00200C45 /* estoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = estoreUITests.swift; sourceTree = "<group>"; };
 		4E353E5F284D35EA00200C45 /* estoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = estoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7A41AAA08EFC7EBFC8059FB6 /* Pods-estore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-estore.release.xcconfig"; path = "Target Support Files/Pods-estore/Pods-estore.release.xcconfig"; sourceTree = "<group>"; };
+		88EB1E622B55009808659C4B /* Pods_estore_estoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_estore_estoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A72C8063D39AD2626F40BD /* Pods_estoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_estoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2483A1C385A62CA4C8B7076 /* Pods-estoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-estoreTests.release.xcconfig"; path = "Target Support Files/Pods-estoreTests/Pods-estoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		D7FE8DB20B32C5496FF7E151 /* Pods-estore-estoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-estore-estoreUITests.debug.xcconfig"; path = "Target Support Files/Pods-estore-estoreUITests/Pods-estore-estoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9C95AFD708384F43697174F /* Pods-estore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-estore.debug.xcconfig"; path = "Target Support Files/Pods-estore/Pods-estore.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D313A4FDE1CC68271C7F885F /* Pods_estore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE791ED0EF1CB59738423E77 /* Pods_estoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A3BE2249B8F6203FBDA408 /* Pods_estore_estoreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D57EFFCBF4FF53577EA989F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04FE5E9C98F5B6326FD1E189 /* Pods_estore.framework */,
+				88EB1E622B55009808659C4B /* Pods_estore_estoreUITests.framework */,
+				95A72C8063D39AD2626F40BD /* Pods_estoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		257FD92F5B3C2D4961BA8B44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9C95AFD708384F43697174F /* Pods-estore.debug.xcconfig */,
+				7A41AAA08EFC7EBFC8059FB6 /* Pods-estore.release.xcconfig */,
+				D7FE8DB20B32C5496FF7E151 /* Pods-estore-estoreUITests.debug.xcconfig */,
+				38A8469F4BD56EB59839E3FC /* Pods-estore-estoreUITests.release.xcconfig */,
+				4295C2FC98F2EC20A9814E93 /* Pods-estoreTests.debug.xcconfig */,
+				C2483A1C385A62CA4C8B7076 /* Pods-estoreTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4E353E2D284D35E900200C45 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				4E353E52284D35EA00200C45 /* estoreTests */,
 				4E353E5C284D35EA00200C45 /* estoreUITests */,
 				4E353E37284D35E900200C45 /* Products */,
+				257FD92F5B3C2D4961BA8B44 /* Pods */,
+				0D57EFFCBF4FF53577EA989F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E353E63284D35EA00200C45 /* Build configuration list for PBXNativeTarget "estore" */;
 			buildPhases = (
+				FDF3B7C1DADB16D5762F7F2E /* [CP] Check Pods Manifest.lock */,
 				4E353E32284D35E900200C45 /* Sources */,
 				4E353E33284D35E900200C45 /* Frameworks */,
 				4E353E34284D35E900200C45 /* Resources */,
+				F80154D183FF59313A644FE2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E353E66284D35EA00200C45 /* Build configuration list for PBXNativeTarget "estoreTests" */;
 			buildPhases = (
+				840693AB9A538F7E3ABC33D1 /* [CP] Check Pods Manifest.lock */,
 				4E353E4B284D35EA00200C45 /* Sources */,
 				4E353E4C284D35EA00200C45 /* Frameworks */,
 				4E353E4D284D35EA00200C45 /* Resources */,
@@ -172,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E353E69284D35EA00200C45 /* Build configuration list for PBXNativeTarget "estoreUITests" */;
 			buildPhases = (
+				27A13EBD49A54D9D5B4D7C35 /* [CP] Check Pods Manifest.lock */,
 				4E353E55284D35EA00200C45 /* Sources */,
 				4E353E56284D35EA00200C45 /* Frameworks */,
 				4E353E57284D35EA00200C45 /* Resources */,
+				2822D050D949221BC6684C98 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,6 +301,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27A13EBD49A54D9D5B4D7C35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-estore-estoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2822D050D949221BC6684C98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-estore-estoreUITests/Pods-estore-estoreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-estore-estoreUITests/Pods-estore-estoreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-estore-estoreUITests/Pods-estore-estoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		840693AB9A538F7E3ABC33D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-estoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F80154D183FF59313A644FE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-estore/Pods-estore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-estore/Pods-estore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-estore/Pods-estore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF3B7C1DADB16D5762F7F2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-estore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E353E32284D35E900200C45 /* Sources */ = {
@@ -438,6 +587,7 @@
 		};
 		4E353E64284D35EA00200C45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9C95AFD708384F43697174F /* Pods-estore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +601,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +617,7 @@
 		};
 		4E353E65284D35EA00200C45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A41AAA08EFC7EBFC8059FB6 /* Pods-estore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +631,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -494,6 +647,7 @@
 		};
 		4E353E67284D35EA00200C45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4295C2FC98F2EC20A9814E93 /* Pods-estoreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +673,7 @@
 		};
 		4E353E68284D35EA00200C45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2483A1C385A62CA4C8B7076 /* Pods-estoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,6 +699,7 @@
 		};
 		4E353E6A284D35EA00200C45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7FE8DB20B32C5496FF7E151 /* Pods-estore-estoreUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -567,6 +723,7 @@
 		};
 		4E353E6B284D35EA00200C45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38A8469F4BD56EB59839E3FC /* Pods-estore-estoreUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
