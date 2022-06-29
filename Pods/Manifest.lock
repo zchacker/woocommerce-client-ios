@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (5.5.0)
+  - IQKeyboardManager (6.5.9)
+  - lottie-ios (3.3.0)
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
+  - SkeletonView (1.29.2)
+  - StatusAlert (1.1.1)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - IQKeyboardManager
+  - lottie-ios
+  - SDWebImage
+  - SkeletonView
+  - StatusAlert (~> 1.1.1)
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQKeyboardManager
+    - lottie-ios
+    - SDWebImage
+    - SkeletonView
+    - StatusAlert
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  IQKeyboardManager: 241cc94ccabc9deb8f8bd7d12f00d73288d13ecc
+  lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
+  SkeletonView: 915a80ecc2b6421ab7ac0f0212321c0cc1406472
+  StatusAlert: a18ec3c33d36a06d4479c1f2b15ffac67aaf7ab1
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 7bcb76daf41974873f9942ff4d34d97f2e504548
+
+COCOAPODS: 1.11.2
